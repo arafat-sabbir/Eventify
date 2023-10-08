@@ -1,15 +1,18 @@
 import { useContext, useState } from "react";
 import { GoEye, GoEyeClosed } from "react-icons/go";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Navbar from "../../Components/Navbar/Navbar";
 import { FcGoogle } from "react-icons/fc";
 import { Context } from "../../Context/AuthProvider";
+import swal from "sweetalert";
+
 
 const SignUp = () => {
   const [showP, setShowp] = useState(false);
   const [error, setError] = useState('')
+  const navigate = useNavigate()
 
-  const { signWithGoogle, signUpUser } = useContext(Context);
+  const { signWithGoogle, signUpUser,updateUserProfile,signOutUser } = useContext(Context);
   const handleShowP = () => {
     setShowp(!showP);
   };
@@ -26,10 +29,11 @@ const SignUp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const form = new FormData(e.currentTarget);
-    // const name = form.get("name");
+    const name = form.get("name");
+    const photoUrl = form.get('photoUrl')
     const email = form.get("email");
     const password = form.get("password");
-    e.target.reset();
+   
 
     if (password.length < 6) {
       return setError('Password Should At-least 6 character or longer')
@@ -40,10 +44,21 @@ const SignUp = () => {
 
     signUpUser(email, password)
       .then((result) => {
+        e.target.reset();
         console.log(result);
+        setError('')
+        swal("Congrats!", "Sign Up SuccessFull", "success");
+        updateUserProfile(name,photoUrl)
+        .then(result =>{
+          console.log(result)
+          signOutUser()
+        })
+        .catch(error =>{
+          console.log(error);
+        })
       })
       .catch((error) => {
-        console.log(error);
+        setError(error.message);
       })
   };
 
@@ -65,6 +80,18 @@ const SignUp = () => {
                       type="text"
                       name="name"
                       placeholder="your name"
+                      className="input input-bordered"
+                      required
+                    />
+                  </div>
+                  <div className="form-control">
+                    <label className="label">
+                      <span className="label-text">Photo url</span>
+                    </label>
+                    <input
+                      type="text"
+                      name="photoUrl"
+                      placeholder="photo url"
                       className="input input-bordered"
                       required
                     />

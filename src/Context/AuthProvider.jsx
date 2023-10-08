@@ -1,4 +1,4 @@
-import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut } from "firebase/auth";
+import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import app from "../Firebase/Firebase.config";
 import { createContext, useEffect, useState } from "react";
 import PropTypes from 'prop-types';
@@ -23,6 +23,13 @@ const AuthProvider = ({children}) => {
         setLoader(true)
         return createUserWithEmailAndPassword(auth,email,password)
     }
+
+    const updateUserProfile = (name,photoUrl)=>{
+        setLoader(true)
+        return updateProfile(auth.currentUser,{
+            displayName: name, photoURL: photoUrl
+        })
+    }
     const signInUser = (email,password)=>{
         setLoader(true)
         return signInWithEmailAndPassword(auth,email,password)
@@ -37,7 +44,8 @@ const AuthProvider = ({children}) => {
         signWithGoogle,
         user,
         loader,
-        signOutUser
+        signOutUser,
+        updateUserProfile
     }
     
     useEffect(() => {
@@ -46,7 +54,7 @@ const AuthProvider = ({children}) => {
           setLoader(false)
         });
         return unsubscribe;
-      }, []);
+      }, [auth]);
     return (
         <Context.Provider value={contextValue}>
             {children}
