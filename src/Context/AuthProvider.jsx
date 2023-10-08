@@ -8,13 +8,14 @@ export const Context = createContext(null)
 const AuthProvider = ({children}) => {
 
     const [user,setUser] = useState(null)
-    const [loader,setLoader] = useState(false)
+    const [loader,setLoader] = useState(true)
 
     const auth = getAuth(app);
 
     const googleProvider = new GoogleAuthProvider()
 
     const signWithGoogle = ()=>{
+        setLoader(true)
         return signInWithPopup(auth,googleProvider)
     }
     

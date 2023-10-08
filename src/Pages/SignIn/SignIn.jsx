@@ -21,7 +21,7 @@ const SignIn = () => {
     const email = form.get("email");
     const password = form.get("password");
     e.target.reset();
-   
+
 
     signInUser(email, password)
       .then((result) => {
@@ -29,12 +29,12 @@ const SignIn = () => {
         swal("Great!", "Sign In SuccessFully", "success");
       })
       .catch((error) => {
-        
+
         if (error.code === 'auth/wrong-password') {
-          setError("Password doesn't match") 
+          setError("Password doesn't match")
         } else if (error.code === 'auth/user-not-found') {
           setError("Email doesn't match")
-        }else{
+        } else {
           console.log(error);
         }
       })
@@ -109,11 +109,11 @@ const SignIn = () => {
                     error && <p>Error : {error}</p>
                   }
                   <p className="my-4 text-black">
-                  Do not have a account ? :{" "}
-                  <Link to={"/signUp"} className=" font-bold text-green-500">
-                    Sign Up
-                  </Link>
-                </p>
+                    Do not have a account ? :{" "}
+                    <Link to={"/signUp"} className=" font-bold text-green-500">
+                      Sign Up
+                    </Link>
+                  </p>
                 </div>
               </div>
             </div>
@@ -125,9 +125,9 @@ const SignIn = () => {
               Sign IN With Google
             </button>
           </div>
-          {user && (
-            <Navigate to={location?.state ? location.state : "/"}></Navigate>
-          )}
+          {
+            user && <Navigate to={location?.state ? location.state : '/'}></Navigate>
+          }
         </div>
       </div>
     </>
