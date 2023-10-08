@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "title": "Aerospace Training",
+    "description": "Provide aviation training for pilots, air traffic controllers, and aircraft maintenance personnel. Offer simulation training and safety courses.",
+    "long_description": "Our Aerospace Training program is designed to prepare individuals for careers in the aviation industry. Whether you aspire to become a pilot, an air traffic controller, or an aircraft maintenance professional, our comprehensive training program covers all aspects of aviation. From in-depth theoretical knowledge to hands-on simulation training, we ensure that you are well-prepared for the challenges of the aerospace industry. Safety is our top priority, and our courses include rigorous safety training to ensure the highest standards in aviation practices.",
+    "price": 1000,
+    "img": "https://i.ibb.co/0YLPDf0/icons8-satellite-signal-96.png",
+    "detail_img": "https://i.ibb.co/tYNFd2M/rocket-flying-through-space.jpg",
+    "color": "#3498db"
+  },
+  {
+    "id": 2,
+    "title": "Workshops and Seminars",
+    "description": "Organize in-person or virtual workshops and seminars, offering hands-on Training in specific skills or topics.",
+    "long_description": "Our Workshops and Seminars program provides both in-person and virtual opportunities to gain hands-on training in specific skills or topics. Whether you're looking to enhance your professional skills or explore new interests, our workshops and seminars offer a diverse range of learning opportunities. Our experienced instructors ensure engaging and interactive sessions that empower participants to acquire practical knowledge and expertise.",
+    "price": 1500,
+    "img": "https://i.ibb.co/2n3YQ7P/icons8-conference-foreground-selected-96.png",
+    "detail_img": "https://i.ibb.co/BPphsQK/large-group-people-sitting-auditorium-watching-presentation-generated-by-ai.jpg",
+    "color": "#27ae60"
+  },
+  {
+    "id": 3,
+    "title": "Certification Programs",
+    "description": "Develop certification programs for industry-specific skills and provide exams and assessments for certification.",
+    "long_description": "Our Certification Programs are tailored to help individuals acquire industry-specific skills and earn valuable certifications. We offer comprehensive courses that prepare you for certification exams, ensuring that you have the knowledge and expertise needed to excel in your chosen field. Our rigorous assessment process guarantees that you meet the highest standards of certification.",
+    "price": 1200,
+    "img": "https://i.ibb.co/Y02d75c/icons8-certificate-96.png",
+    "detail_img": "https://i.ibb.co/F4QtRwM/success-celebration-with-diploma-tassel-generated-by-ai.jpg",
+    "color": "#e74c3c"
+  },
+  {
+    "id": 4,
+    "title": "Coaching and Mentoring",
+    "description": "Provide one-on-one coaching and mentoring sessions to help individuals or professionals develop their skills and reach their goals.",
+    "long_description": "Our Coaching and Mentoring program offers personalized one-on-one sessions to help individuals and professionals develop their skills and achieve their goals. Our experienced coaches provide guidance, support, and motivation to empower you on your journey to success. Whether you're seeking personal growth or career advancement, our coaching and mentoring will unlock your full potential.",
+    "price": 800,
+    "img": "https://i.ibb.co/kM4ypJK/icons8-mentor-96.png",
+    "detail_img": "https://i.ibb.co/v45hStN/view-3d-businessman.jpg",
+    "color": "#9b59b6"
+  },
+  {
+    "id": 5,
+    "title": "Corporate Training",
+    "description": "Offer customized Training programs for businesses, covering topics like leadership, team building, and productivity.",
+    "long_description": "Our Corporate Training program is designed to meet the unique needs of businesses. We offer customized training programs that focus on key areas such as leadership development, team building, and productivity enhancement. Our tailored approach ensures that your employees acquire the skills and knowledge necessary to drive your organization's success.",
+    "price": 2000,
+    "img": "https://i.ibb.co/yF47QnK/icons8-work-light-96.png",
+    "detail_img": "https://i.ibb.co/nBCyPcd/modern-equipped-computer-lab.jpg",
+    "color": "#f39c12"
+  },
+  {
+    "id": 6,
+    "title": "Language Training",
+    "description": "Teach foreign languages through courses and immersion programs, offering conversation practice and proficiency tests.",
+    "long_description": "Our Language Training program offers comprehensive courses and immersion programs to help you master foreign languages. From beginner to advanced levels, we provide a range of language courses that include conversation practice and proficiency tests. Whether you're learning a new language for travel, work, or personal enrichment, our language training will enhance your skills.",
+    "price": 900,
+    "img": "https://i.ibb.co/GcQM7dD/icons8-language-96.png",
+    "detail_img": "https://i.ibb.co/Hz7ywcJ/different-language-speech-bubble-hello-concept.jpg",
+    "color": "#1abc9c"
+  },
+  {
+    "id": 7,
+    "title": "Technical Training",
+    "description": "Provide IT and technical Training in areas like programming, cybersecurity, and cloud computing, with hands-on labs and practice environments.",
+    "long_description": "Our Technical Training program specializes in IT and technical education, covering areas such as programming, cybersecurity, and cloud computing. We offer hands-on labs and practice environments to ensure that you gain practical experience and proficiency in cutting-edge technologies. Whether you're a beginner or an experienced IT professional, our technical training will enhance your skills and career prospects.",
+    "price": 1800,
+    "img": "https://i.ibb.co/tcQZr21/icons8-training-96.png",
+    "detail_img": "https://i.ibb.co/FxX1hkn/group-young-business-people-working-office.jpg",
+    "color": "#e67e22"
+  },
+  {
+    "id": 8,
+    "title": "Soft Skills Training",
+    "description": "Focus on personal development and soft skills like communication, time management, and emotional intelligence through workshops and coaching.",
+    "long_description": "Our Soft Skills Training program emphasizes personal development and soft skills such as communication, time management, and emotional intelligence. Through a combination of workshops and coaching, we help individuals refine their interpersonal and professional skills. Whether you're looking to enhance your leadership abilities or improve your work-life balance, our soft skills training will empower you to excel.",
+    "price": 1100,
+    "img": "https://i.ibb.co/Jk2tShD/icons8-learning-96.png",
+    "detail_img": "https://i.ibb.co/BLN1t9z/top-view-clock-time.jpg",
+    "color": "#3498db"
+  },
+  {
+    "id": 9,
+    "title": "Creative Arts Workshops",
+    "description": "Provide Creative Art classes, personal Training, and Arts coaching, along with wellness and mindfulness programs.",
+    "long_description": "Our Creative Arts Workshops program offers a wide range of creative art classes, personalized training, and arts coaching. Whether you're interested in painting, sculpture, or any other art form, we provide the guidance and support you need to unleash your artistic potential. Additionally, we offer wellness and mindfulness programs to promote overall well-being and creativity.",
+    "price": 1300,
+    "img": "https://i.ibb.co/r5PcqNJ/icons8-art-96.png",
+    "detail_img": "https://i.ibb.co/Myd3sw5/flat-tree-silhouette-isolated-white-generative-ai.jpg",
+    "color": "#27ae60"
+  },
+  {
+    "id": 10,
+    "title": "STEM Education",
+    "description": "Offer science, technology, engineering, and mathematics (STEM) education programs for students, including coding classes, robotics workshops, and STEM camps.",
+    "long_description": "Our STEM Education program is dedicated to inspiring and educating the next generation of innovators. We offer a wide range of science, technology, engineering, and mathematics (STEM) education programs for students of all ages. From coding classes to robotics workshops and STEM camps, our hands-on approach ensures that young minds are engaged and equipped with the skills needed for success in STEM fields.",
+    "price": 1600,
+    "img": "https://i.ibb.co/Dbq8NSF/icons8-education-96.png",
+    "detail_img": "https://i.ibb.co/hV2jKfm/father-sons-making-robot.jpg",
+    "color": "#e74c3c"
+  }
+]
