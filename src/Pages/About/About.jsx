@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <Navbar></Navbar>
-            <div className="container mx-auto h-[80vh] items-center flex flex-col lg:flex-row gap-20 lg:gap-4 ">
+            <div className="container mx-auto my-8 items-center flex flex-col lg:flex-row gap-20 lg:gap-4 ">
                 <div data-aos="fade-right"
                     data-aos-offset="200"
                     data-aos-duration="2000"

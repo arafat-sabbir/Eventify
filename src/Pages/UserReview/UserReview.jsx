@@ -5,7 +5,7 @@ const UserReview = () => {
     AOS.init();
     return (
         <div>
-            <div className="container mx-auto">
+            <div className="container mx-auto p-4">
                 <div className="flex items-center my-8">
                     <div className="badge badge-success mr-2 badge-sm"></div>
                     <h3> Testimonial</h3>

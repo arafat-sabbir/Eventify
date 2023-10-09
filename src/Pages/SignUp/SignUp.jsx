@@ -35,17 +35,11 @@ const SignUp = () => {
 
 
     if (password.length < 6) {
-      return setError('Password Should At-least 6 character or longer')
+      return setError('Password should be at least 6 characters long.');
+    } else if (!/[@#$%^&*()_+-=]/.test(password) && !/[A-Z]/.test(password)) {
+      return setError('Your password should contain at least one uppercase letter and at least one special character.');
     }
-    else if (!/[A-Z]/.test(password)) {
-      return setError('Your Password should contain at least one uppercase letter.');
-    }
-
-    else if (!/[@#$%^&*()_+-=]/.test(password)) {
-      return setError('Your Password should contain at least one special character.');
-    }
-
-
+    
     signUpUser(email, password)
       .then((result) => {
         e.target.reset();
