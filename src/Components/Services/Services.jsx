@@ -14,11 +14,11 @@ const Services = () => {
     return (
         <div data-aos="fade-up"
             data-aos-offset="200"
-            data-aos-duration="600"
+            data-aos-duration="1500"
            
             data-aos-mirror="true"
             data-aos-once="false"
-            data-aos-anchor-placement="top"
+            data-aos-anchor-placement="top-center"
             className="container  mx-auto">
             <h3 className="text-2xl font-bold text-center my-12">Our Services</h3>
             <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-4 xl:grid-cols-4  gap-10 my-8">

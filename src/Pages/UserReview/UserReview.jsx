@@ -1,18 +1,27 @@
 import Footer from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const UserReview = () => {
+    AOS.init();
     return (
         <div>
-            <Navbar></Navbar>
             <div className="container mx-auto">
-                <div className="flex items-center">
+                <div className="flex items-center my-8">
                     <div className="badge badge-success mr-2 badge-sm"></div>
                     <h3> Testimonial</h3>
                 </div>
                 <h3 className="text-5xl font-semibold my-8">Check whatclient say</h3>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-                    <div className="card  border drop-shadow-2xl p-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 my-12 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+                    <div data-aos="fade-right"
+                        data-aos-offset="200"
+                        data-aos-duration="1500"
+
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="right"
+
+                        className="card  border drop-shadow-2xl p-4">
                         <div className="flex justify-between items-center">
                             <div><img src="https://i.ibb.co/xgT1Zd0/icons8-amazon-24.png" alt="" /></div>
                             <div> <div className="rating">
@@ -39,7 +48,14 @@ const UserReview = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card  border drop-shadow-2xl p-4">
+                    <div data-aos="fade-up"
+                        data-aos-offset="200"
+                        data-aos-duration="1500"
+
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top"
+                        className="card  border drop-shadow-2xl p-4">
                         <div className="flex justify-between items-center">
                             <div><img src="https://i.ibb.co/xgT1Zd0/icons8-amazon-24.png" alt="" /></div>
                             <div> <div className="rating">
@@ -66,7 +82,14 @@ const UserReview = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card  border drop-shadow-2xl p-4">
+                    <div data-aos="fade-down"
+                        data-aos-offset="200"
+                        data-aos-duration="1500"
+
+                        data-aos-mirror="true"
+                        data-aos-once="false"
+                        data-aos-anchor-placement="top"
+                        className="card  border drop-shadow-2xl p-4">
                         <div className="flex justify-between items-center">
                             <div><img src="https://i.ibb.co/xgT1Zd0/icons8-amazon-24.png" alt="" /></div>
                             <div> <div className="rating">
@@ -93,7 +116,14 @@ const UserReview = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="card  border drop-shadow-2xl p-4">
+                    <div  data-aos="fade-right"
+                    data-aos-offset="200"
+                    data-aos-duration="1500"
+
+                    data-aos-mirror="true"
+                    data-aos-once="false"
+                    data-aos-anchor-placement="right"
+                     className="card  border drop-shadow-2xl p-4">
                         <div className="flex justify-between items-center">
                             <div><img src="https://i.ibb.co/xgT1Zd0/icons8-amazon-24.png" alt="" /></div>
                             <div> <div className="rating">
@@ -122,7 +152,6 @@ const UserReview = () => {
                     </div>
                 </div>
             </div>
-            <Footer></Footer>
         </div>
     );
 };

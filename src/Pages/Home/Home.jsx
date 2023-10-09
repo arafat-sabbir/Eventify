@@ -2,6 +2,8 @@ import Banner from "../../Components/Banner/Banner";
 import Footer from "../../Components/Footer/Footer";
 import Navbar from "../../Components/Navbar/Navbar";
 import Services from "../../Components/Services/Services";
+import UserReview from "../UserReview/UserReview";
+import WhyUs from "../Why us/WhyUs";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
         <div className="">
           <Services></Services>
         </div>
+        <WhyUs></WhyUs>
+        <UserReview></UserReview>
         <Footer></Footer>
       </div>
     </div>

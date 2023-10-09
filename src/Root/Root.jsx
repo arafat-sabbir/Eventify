@@ -6,9 +6,8 @@ import SignUp from '../Pages/SignUp/SignUp';
 import ErrorPage from '../Pages/ErrorPage/ErrorElement';
 import ServiceDetail from '../Pages/ServiceDetail/ServiceDetail';
 import PrivateRoute from '../PrivateRoute/PrivateRoute';
-import WhyUs from '../Pages/Why us/WhyUs';
-import UserReview from '../Pages/UserReview/UserReview';
 import About from '../Pages/About/About';
+import ContactUs from '../Pages/Contact/ContactUs';
 
 
 const routes = createBrowserRouter([
@@ -35,17 +34,13 @@ const routes = createBrowserRouter([
                 element: <PrivateRoute><ServiceDetail></ServiceDetail></PrivateRoute>
             },
             {
-                path:'/whyUs',
-                element:<PrivateRoute><WhyUs></WhyUs></PrivateRoute>
-            },
-            {
-                path:'/userReview',
-                element:<PrivateRoute><UserReview></UserReview></PrivateRoute>
+                path:'/contactUs',
+                element:<PrivateRoute><ContactUs></ContactUs></PrivateRoute>
             },
             {
                 path:'/about',
-                element:<About></About>
-            }
+                element:<PrivateRoute> <About></About> </PrivateRoute>
+            },
         ]
     }
 ])
