@@ -13,6 +13,7 @@ const SignIn = () => {
   const [showP, setShowp] = useState(false);
   const [error, setError] = useState(null)
   const location = useLocation();
+  console.log(location);
 
 
   const handleSignIn = (e) => {
@@ -35,7 +36,7 @@ const SignIn = () => {
         } else if (error.code === 'auth/user-not-found') {
           setError("Email doesn't match")
         } else {
-          console.log(error);
+          setError(error.message)
         }
       })
   };
@@ -44,8 +45,8 @@ const SignIn = () => {
   };
   const handleGoogleSignin = () => {
     signWithGoogle()
-      .then((result) => {
-        console.log(result.user);
+      .then(() => {
+        swal("Great!", "Sign In SuccessFully", "success");
       })
       .catch((error) => {
         console.log(error);
