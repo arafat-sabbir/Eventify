@@ -28,8 +28,8 @@ const WhyUs = () => {
                         <div className="badge badge-success badge-sm"></div>
                         <p className="text-xl font-semibold text-gray-400 ml-2">Why Choose us</p>
                     </div>
-                    <h3 className="text-5xl font-semibold my-8 ">Specialist in Educational And Training Event</h3>
-                    <div className="flex items-center mb-6 gap-4">
+                    <h3 className="lg:text-5xl text-3xl font-semibold my-8 ">Specialist in Educational And Training Event</h3>
+                    <div className="flex flex-col lg:flex-row items-center mb-6 gap-4">
                         <img className="w-16 h-16" src="https://i.ibb.co/pXB9Thk/icons8-rocket-48.png" alt="" />
                         <div>
                             <h1 className="text-2xl mb-2 font-medium">Fast working process</h1>
@@ -37,14 +37,14 @@ const WhyUs = () => {
                                 <br />  shipping and scaling beautiful.</p>
                         </div>
                     </div>
-                    <div className="flex items-center mb-6 gap-4">
+                    <div className="flex flex-col lg:flex-row items-center mb-6 gap-4">
                         <img className="w-16 h-16" src="https://i.ibb.co/XSg6K5m/icons8-team-96.png" alt="" />
                         <div>
                             <h1 className="text-2xl mb-2 font-medium">Dedicated team</h1>
                             <p className="text-gray-400 text-xl">At Evnentify we,have dedicated team for every <br /> category event management</p>
                         </div>
                     </div>
-                    <div className="flex items-center gap-4">
+                    <div className="flex flex-col lg:flex-row items-center gap-4">
                         <img className="w-16 h-16" src="https://i.ibb.co/3SrNYtg/icons8-last-24-hours-48.png" alt="" />
                         <div>
                             <h1 className="text-2xl mb-2 font-medium">24/7 hours support</h1>

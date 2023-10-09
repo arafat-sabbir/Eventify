@@ -18,7 +18,9 @@ const Home = () => {
           <Services></Services>
         </div>
         <WhyUs></WhyUs>
+        <div className="my-8">
         <UserReview></UserReview>
+        </div>
         <Footer></Footer>
       </div>
     </div>

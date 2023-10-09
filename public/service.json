@@ -2,81 +2,91 @@
   {
     "id": 1,
     "title": "Aerospace Training",
-    "description": "Aviation training for pilots, controllers, and maintenance.",
+    "description": "Comprehensive aviation training with safety simulations.",
+    "detail_description": "Prepare for a career in aviation with our Aerospace Training program. Whether you're aspiring to become a pilot, air traffic controller, or maintenance professional, our program covers all aspects of aviation, from theory to hands-on safety simulations.",
     "price": 1000,
     "img": "https://i.ibb.co/0YLPDf0/icons8-satellite-signal-96.png",
-    "detail_description": "Prepare for aviation careers with comprehensive training."
+    "detail_img": "https://i.ibb.co/tYNFd2M/rocket-flying-through-space.jpg"
   },
   {
     "id": 2,
     "title": "Workshops and Seminars",
-    "description": "Hands-on training tailored to specific skills.",
+    "description": "Hands-on training tailored to specific skills and interests.",
+    "detail_description": "Enhance your skills and explore new interests with our Workshops and Seminars program. Our experienced instructors provide engaging and interactive sessions, empowering you to acquire practical knowledge in your chosen field.",
     "price": 1500,
     "img": "https://i.ibb.co/2n3YQ7P/icons8-conference-foreground-selected-96.png",
-    "detail_description": "Enhance skills through engaging, interactive sessions."
+    "detail_img": "https://i.ibb.co/BPphsQK/large-group-people-sitting-auditorium-watching-presentation-generated-by-ai.jpg"
   },
   {
     "id": 3,
     "title": "Certification Programs",
-    "description": "Industry-specific certification with rigorous courses.",
+    "description": "Industry-specific certifications with comprehensive courses.",
+    "detail_description": "Earn valuable certifications in your chosen industry with our Certification Programs. Our comprehensive courses and rigorous assessments ensure that you have the knowledge and expertise needed for success.",
     "price": 1200,
     "img": "https://i.ibb.co/Y02d75c/icons8-certificate-96.png",
-    "detail_description": "Earn valuable industry certifications with our courses."
+    "detail_img": "https://i.ibb.co/F4QtRwM/success-celebration-with-diploma-tassel-generated-by-ai.jpg"
   },
   {
     "id": 4,
     "title": "Coaching and Mentoring",
-    "description": "Personalized coaching for goals achievement.",
+    "description": "Personalized one-on-one coaching for your goals.",
+    "detail_description": "Unlock your full potential with our Coaching and Mentoring program. Our experienced coaches provide guidance, support, and motivation to help you achieve your personal and professional goals.",
     "price": 800,
     "img": "https://i.ibb.co/kM4ypJK/icons8-mentor-96.png",
-    "detail_description": "Unlock your potential with experienced coaches."
+    "detail_img": "https://i.ibb.co/v45hStN/view-3d-businessman.jpg"
   },
   {
     "id": 5,
-    "title": "Conference Training",
-    "description": "Customized programs for leadership and productivity.",
+    "title": "Corporate Training",
+    "description": "Customized training for leadership and productivity.",
+    "detail_description": "Drive your organization's success with our Corporate Training program. We offer customized training programs that focus on key areas such as leadership development, team building, and productivity enhancement.",
     "price": 2000,
     "img": "https://i.ibb.co/yF47QnK/icons8-work-light-96.png",
-    "detail_description": "Drive organizational success with tailored training."
+    "detail_img": "https://i.ibb.co/nBCyPcd/modern-equipped-computer-lab.jpg"
   },
   {
     "id": 6,
     "title": "Language Training",
     "description": "Master foreign languages for travel, work, or enrichment.",
+    "detail_description": "Enhance your language skills with our Language Training program. From beginner to advanced levels, we provide comprehensive courses, conversation practice, and proficiency tests for various language goals.",
     "price": 900,
     "img": "https://i.ibb.co/GcQM7dD/icons8-language-96.png",
-    "detail_description": "Enhance language skills with comprehensive courses."
+    "detail_img": "https://i.ibb.co/Hz7ywcJ/different-language-speech-bubble-hello-concept.jpg"
   },
   {
     "id": 7,
     "title": "Technical Training",
-    "description": "Specialized IT education in programming and cybersecurity.",
+    "description": "Specialized IT and technical education with hands-on labs.",
+    "detail_description": "Advance your IT and technical skills with our Technical Training program. We specialize in programming, cybersecurity, and cloud computing, offering hands-on labs and practice environments for practical experience and career enhancement.",
     "price": 1800,
     "img": "https://i.ibb.co/tcQZr21/icons8-training-96.png",
-    "detail_description": "Advance IT and technical skills with hands-on labs."
+    "detail_img": "https://i.ibb.co/FxX1hkn/group-young-business-people-working-office.jpg"
   },
   {
     "id": 8,
     "title": "Soft Skills Training",
-    "description": "Refine communication, time management, and intelligence.",
+    "description": "Refine communication, time management,intelligence.",
+    "detail_description": "Excel in both your personal and professional life with our Soft Skills Training program. We emphasize skills such as communication, time management, and emotional intelligence through a combination of workshops and coaching sessions.",
     "price": 1100,
     "img": "https://i.ibb.co/Jk2tShD/icons8-learning-96.png",
-    "detail_description": "Excel in personal and professional life with skills training."
+    "detail_img": "https://i.ibb.co/BLN1t9z/top-view-clock-time.jpg"
   },
   {
     "id": 9,
     "title": "Creative Arts Workshops",
-    "description": "Unleash artistic potential with art classes and wellness programs.",
+    "description": "Unleash artistic potential with personalized training.",
+    "detail_description": "Explore your creativity with our Creative Arts Workshops program. Whether it's painting, sculpture, or any other art form, we provide guidance and support to help you unleash your artistic potential. Additionally, we offer wellness and mindfulness programs to promote overall well-being.",
     "price": 1300,
     "img": "https://i.ibb.co/r5PcqNJ/icons8-art-96.png",
-    "detail_description": "Explore creativity with guidance and support."
+    "detail_img": "https://i.ibb.co/Myd3sw5/flat-tree-silhouette-isolated-white-generative-ai.jpg"
   },
   {
     "id": 10,
     "title": "STEM Education",
-    "description": "Inspire and educate with coding, robotics, and STEM programs.",
+    "description": "Inspire the next generation with STEM education programs.",
+    "detail_description": "Prepare young minds for success in STEM fields with our STEM Education program. We offer a wide range of programs, including coding classes, robotics workshops, and STEM camps, to inspire and educate the next generation of innovators.",
     "price": 1600,
     "img": "https://i.ibb.co/Dbq8NSF/icons8-education-96.png",
-    "detail_description": "Prepare the next generation for success in STEM fields."
+    "detail_img": "https://i.ibb.co/hV2jKfm/father-sons-making-robot.jpg"
   }
 ]

@@ -70,7 +70,9 @@ const Navbar = () => {
         {
           user && <p className="font-semibold  mr-2 bg-gray-50 bg-opacity-10">{user.displayName }</p>
         }
-        <img className="w-12 mr-4 h-12  rounded-full border-2 border-[#f7897d]" src={user?.photoURL ? user.photoURL : profile} alt="" />
+        {
+          user &&<img className="w-12 mr-4 h-12  rounded-full border-2 border-[#f7897d]" src={user?.photoURL ? user.photoURL : profile} alt="" />
+        }
         {user ? (
           <button className="btn btn-error rounded-full text-white" onClick={handleSignOut}>
             Sign Out
