@@ -1,4 +1,3 @@
-import Footer from "../../Components/Footer/Footer";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -33,22 +32,22 @@ const UserReview = () => {
                             </div></div>
                         </div>
                         <div className="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis? Aliquam accusamus ex nihil itaque, atque, delectus eos repellendus maxime commodi soluta totam quisquam, esse ut a provident ad tenetur molestias praesentium omnis nobis. Dolorem facilis sunt aut voluptatum iste!</p>
+                            <p>Their  language training event program are amazing,Those of you are trying to learn foreign language you can Always try their language its simple beginner friendly and Justify the price they are taken for..</p>
 
                             <div className="flex items-center gap-4">
                                 <div className="avatar">
                                     <div className="w-8 mt-2 rounded-full ">
-                                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLSEzriO9EM2Nno9atF8fLsO6LWEKhjpOMZBYxbXGHdPUI=s96-c" />
+                                        <img src="https://i.ibb.co/tX7W6fq/testi-4.jpg" />
                                     </div>
                                 </div>
                                 <div>
-                                    <h3>Arafat Sabbir</h3>
-                                    <p>Font end developer (Amazon)</p>
+                                    <h3>Neji Hyuga</h3>
+                                    <p>Language t Client (Eventify)</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up"
+                    <div data-aos="fade-down"
                         data-aos-offset="200"
                         data-aos-duration="1500"
 
@@ -67,22 +66,22 @@ const UserReview = () => {
                             </div></div>
                         </div>
                         <div className="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis? Aliquam accusamus ex nihil itaque, atque, delectus eos repellendus maxime commodi soluta totam quisquam, esse ut a provident ad tenetur molestias praesentium omnis nobis. Dolorem facilis sunt aut voluptatum iste!</p>
+                            <p>Eventify has a amazing Arts event program those of you are trying to learn Creative Arts you can Always try their Creative arts event its simple beginner friendly and Justify the price they are taken for..</p>
 
                             <div className="flex items-center gap-4">
                                 <div className="avatar">
                                     <div className="w-8 mt-2  rounded-full ">
-                                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLSEzriO9EM2Nno9atF8fLsO6LWEKhjpOMZBYxbXGHdPUI=s96-c" />
+                                        <img src="https://i.ibb.co/x6zbG72/testi-1.png" />
                                     </div>
                                 </div>
                                 <div>
-                                    <h3>Arafat Sabbir</h3>
-                                    <p>Font end developer (Amazon)</p>
+                                    <h3>Sasha Alex</h3>
+                                    <p>Creative Arts Client(Eventify)</p>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-down"
+                    <div data-aos="fade-up"
                         data-aos-offset="200"
                         data-aos-duration="1500"
 
@@ -101,17 +100,17 @@ const UserReview = () => {
                             </div></div>
                         </div>
                         <div className="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis? Aliquam accusamus ex nihil itaque, atque, delectus eos repellendus maxime commodi soluta totam quisquam, esse ut a provident ad tenetur molestias praesentium omnis nobis. Dolorem facilis sunt aut voluptatum iste!</p>
+                            <p>The Soft skill event Eventify has like time management communication and other.those of you are trying to get punctual in life.You can Always try their Soft skill event its simple beginner friendly and Justify the price they are taken for..</p>
 
                             <div className="flex items-center gap-4">
                                 <div className="avatar">
                                     <div className="w-8 mt-2   rounded-full ">
-                                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLSEzriO9EM2Nno9atF8fLsO6LWEKhjpOMZBYxbXGHdPUI=s96-c" />
+                                        <img src="https://i.ibb.co/LYCSyPf/testi-5.jpg" />
                                     </div>
                                 </div>
                                 <div>
-                                    <h3>Arafat Sabbir</h3>
-                                    <p>Font end developer (Amazon)</p>
+                                    <h3>Steve Hearby</h3>
+                                    <p>Soft Skill Client (Eventify)</p>
                                 </div>
                             </div>
                         </div>
@@ -135,17 +134,17 @@ const UserReview = () => {
                             </div></div>
                         </div>
                         <div className="card-body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, omnis? Aliquam accusamus ex nihil itaque, atque, delectus eos repellendus maxime commodi soluta totam quisquam, esse ut a provident ad tenetur molestias praesentium omnis nobis. Dolorem facilis sunt aut voluptatum iste!</p>
+                            <p>Their Stem means science technology engineering machine learning  .Those of you are trying to get Knowledge on digital life.You can Always try their Stem  event its simple beginner friendly and Justify the price they are taken for..</p>
 
                             <div className="flex items-center gap-4">
                                 <div className="avatar">
                                     <div className="w-8  mt-2  rounded-full ">
-                                        <img src="https://lh3.googleusercontent.com/a/ACg8ocLSEzriO9EM2Nno9atF8fLsO6LWEKhjpOMZBYxbXGHdPUI=s96-c" />
+                                        <img src="https://i.ibb.co/7XK19pL/testi-7.png" />
                                     </div>
                                 </div>
                                 <div>
-                                    <h3>Arafat Sabbir</h3>
-                                    <p>Font end developer (Amazon)</p>
+                                    <h3>Tom Crud</h3>
+                                    <p>Stem Client (Eventify)</p>
                                 </div>
                             </div>
                         </div>

@@ -8,7 +8,7 @@ const WhyUs = () => {
             <div className="container mx-auto h-[80vh] items-center flex flex-col lg:flex-row gap-20 lg:gap-4 ">
                 <div data-aos="fade-right"
                     data-aos-offset="200"
-                    data-aos-duration="1500"
+                    data-aos-duration="2000"
 
                     data-aos-mirror="true"
                     data-aos-once="false"
